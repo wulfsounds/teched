@@ -1,5 +1,7 @@
 const router = require('express').Router();
 
+
+//UPDATE VVVVV
 // get all dishes
 router.get('/', async (req, res) => {
     res.render('all', {blogs});
