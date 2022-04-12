@@ -54,10 +54,18 @@ section {
     top: -150px;
 }
 
+.input-group {
+    margin-top: 10px;
+}
+
 .card {
     border: #000 solid;
     box-shadow: -20px 20px 1px purple;
     width: 50rem;
+}
+
+.card-body {
+    padding: 25px;
 }
 
 .card-title {
@@ -84,4 +92,14 @@ section {
     font-family: aktiv-grotesk-extended, sans-serif;
     font-weight: 100;
     font-style: normal;
+}
+
+#create-blog {
+    background-color: purple;
+    font-size: 20px;
+}
+
+.login {
+    margin: 20px;
+    width: 20rem;
 }
