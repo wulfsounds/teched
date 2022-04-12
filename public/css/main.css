@@ -1,0 +1,87 @@
+body {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: #3fd4f1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: #000 solid 2px;
+}
+
+h1 {
+    font-family: termina, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin: 0;
+}
+
+.dev-orange {
+    color: #FF6700;
+}
+
+.nav-link {
+    font-style: italic;
+    text-decoration: none;
+    color: #000;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+main {
+    display: inline;
+}
+
+.jumbotron {
+    position: relative;
+    background-color: #3fd4f1;
+    height: 300px;
+    z-index: -1;
+}
+
+section {
+    display: inline;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -150px;
+}
+
+.card {
+    border: #000 solid;
+    box-shadow: -20px 20px 1px purple;
+    width: 50rem;
+}
+
+.card-title {
+    font-family: termina, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.card-subtitle {
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.card-text {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.btn {
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
