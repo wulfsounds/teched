@@ -1,12 +1,16 @@
     <!-- Blog entry goes here -->
+{{#each blogs as |blog|}}
 <section>
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title">Blog Post.</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Posted By Wulfsounds on 04/11/2022</h6>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laborum perspiciatis numquam est provident incidunt ea cumque atque? Voluptatibus, aliquid. Vitae aliquam asperiores necessitatibus accusamus laudantium quod quisquam molestias recusandae.</p>
+            <h5 class="card-title">{{blog.name}}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Posted By {{user.username}} on {{format_date}}</h6>
+            <p class="card-text">{{blog.text}}</p>
+            {{#if logged_in}}
             <button type="button" class="btn btn-primary">Comment</button>
+            {{/if}}
         </div>
         </div>
 </section>
+{{/each}}
 <!-- Blog post ends here -->
