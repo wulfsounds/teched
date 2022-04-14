@@ -4,7 +4,7 @@
 
 ## Description
 
-<!-- descriptions -->
+To create a technology blog using CMS-Styling using Sequelize as the ORM and Handlebars. This project is for educational purposes for SMU Coding Bootcamp.
 
 ## Table of Contents
 
@@ -16,23 +16,16 @@
 
 ## Installation 
 
-To get started, fork this repo into a text editor, then install the node package into your repo using in the command line.
-
-```bash
-npm install
-```
-
-Once completed, open the JavaScript file titled `index.js` in the command line by right-clilcking and selecting '*Open in Integrated Terminal*' and enter the following:
-
-```bash
-node index.js
-```
-
-And that's it! Just follow the prompt in the command line by inputing the information to your project and the README file will generate in the folder you assigned the node package to. And don't worry if you don't have all the information, once comepleted, you can go back into the newly generated README file and add more information. Happy Coding!
+Visit the deployed site and enjjoy the features! Sign up to create blogs and comment on others.
 
 ## Usage
+[Deployed on GitHub](https://github.com/wulfsounds/teched)
 
-<!-- screenshots -->
+[Deployed on Heroku](https://techd-blog.herokuapp.com/)
+
+![homepage](./assets/homepage-screenshot.png)
+
+![login](./assets/login-screenshot.png)
 
 ## License
 
